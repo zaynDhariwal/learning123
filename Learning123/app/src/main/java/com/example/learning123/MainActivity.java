@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri uri=Uri.parse("https://github.com/zaynDhariwal/LearningApp_MC");
+                Uri uri=Uri.parse("https://github.com/zaynDhariwal/learning123");
                 Intent intent=new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(intent);
             }
