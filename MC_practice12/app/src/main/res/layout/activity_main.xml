@@ -6,39 +6,128 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="156dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="488dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    Skip to content
+    Search or jump to…
+    Pull requests
+    Issues
+    Marketplace
+    Explore
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="166dp"
-        android:layout_height="58dp"
-        android:text="Button"
-        app:layout_constraintTop_toTopOf="@+id/button"
-        tools:layout_editor_absoluteX="229dp" />
+    @zaynDhariwal
+    iqrasarwar
+    /
+    SignInSignUp-HelloWorld_Mobile_Computing
+    Public
+    Code
+    Issues
+    Pull requests
+    Actions
+    Projects
+    Wiki
+    Security
+    Insights
+    SignInSignUp-HelloWorld_Mobile_Computing/app/src/main/res/layout/login_screen.xml
+    @iqrasarwar
+    iqrasarwar login landscape mode added
+    Latest commit 8d3093e 23 days ago
+    History
+    1 contributor
+    107 lines (98 sloc)  4.42 KB
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="234dp"
-        android:layout_height="194dp"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="84dp"
-        tools:srcCompat="@tools:sample/avatars" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="261dp"
-        android:layout_height="96dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="562dp" />
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="-29dp">
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="195dp"
+                android:text="Email"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+
+            <EditText
+                android:id="@+id/PasswordText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="67dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/PassWord"
+                app:layout_constraintTop_toBottomOf="@+id/EmailText" />
+
+            <EditText
+                android:id="@+id/EmailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="72dp"
+                android:layout_marginEnd="24dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Email"
+                app:layout_constraintTop_toBottomOf="@+id/intro" />
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="140dp"
+                android:text="Login CMS"
+
+                android:textSize="32sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <TextView
+                android:id="@+id/PassWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="49dp"
+                android:text="PassWord"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/PasswordText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="185dp"
+                android:text="Login"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PasswordText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
