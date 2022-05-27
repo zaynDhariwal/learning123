@@ -25,16 +25,20 @@
         app:layout_constraintTop_toTopOf="@+id/button"
         tools:layout_editor_absoluteX="229dp" />
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="262dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="194dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="261dp"
+        android:layout_height="96dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="562dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
