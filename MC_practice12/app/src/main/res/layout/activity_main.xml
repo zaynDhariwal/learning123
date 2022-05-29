@@ -6,37 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    Skip to content
-    Search or jump to…
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @zaynDhariwal
-    iqrasarwar
-    /
-    SignInSignUp-HelloWorld_Mobile_Computing
-    Public
-    Code
-    Issues
-    Pull requests
-    Actions
-    Projects
-    Wiki
-    Security
-    Insights
-    SignInSignUp-HelloWorld_Mobile_Computing/app/src/main/res/layout/login_screen.xml
-    @iqrasarwar
-    iqrasarwar login landscape mode added
-    Latest commit 8d3093e 23 days ago
-    History
-    1 contributor
-    107 lines (98 sloc)  4.42 KB
-
-
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context=".MainActivity"
